@@ -13,7 +13,7 @@
 
 
   <div style="text-align: center; padding: 30px;border: 1px solid green;width: 250px;">
-    <form method="post" action="<c:url value='j_spring_security_check' />">
+    <form method="post" action="<c:url value='j_spring_security_check'/>">
 
       <table>
         <tr>
@@ -34,11 +34,12 @@
           <td> </td>
           <td><input type="submit" value="Login" />
           </td>
-
         </tr>
       </table>
     </form>
-    <h3><a href="">Sign Up</a></h3>
+
+    <h3><a href="signup">Sign Up</a></h3>
+
   </div>
 </center>
 </body>

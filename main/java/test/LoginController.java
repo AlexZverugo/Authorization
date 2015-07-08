@@ -27,11 +27,6 @@ public class LoginController {
         return "user";
     }
 
-    @RequestMapping("admin")
-    public String geAdminPage() {
-        return "admin";
-    }
-
     @RequestMapping("403page")
     public String ge403denied() {
         return "redirect:login?denied";

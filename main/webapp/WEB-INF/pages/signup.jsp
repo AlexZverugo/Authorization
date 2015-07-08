@@ -32,6 +32,9 @@
         </tr>
       </table>
     </form>
+
+    <h3><a href="login">Login</a></h3>
+
   </div>
 </center>
 </body>
