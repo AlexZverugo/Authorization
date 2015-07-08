@@ -10,8 +10,7 @@ public class LoginController {
 
     @RequestMapping("login")
     public ModelAndView getLoginForm(
-            @RequestParam(required = false) String authfailed, String logout,
-            String denied) {
+            @RequestParam(required = false) String authfailed, String logout, String denied) {
         String message = "";
         if (authfailed != null) {
             message = "Invalid username of password, try again !";
@@ -24,7 +23,7 @@ public class LoginController {
     }
 
     @RequestMapping("user")
-    public String geUserPage() {
+         public String geUserPage() {
         return "user";
     }
 
